@@ -24,7 +24,7 @@ export default function Home() {
          <head>
       <title>OR1GG1n Bio • Links</title>
     </head>
-      <header className="border-zinc-800 backdrop-blur-xs border-2 p-6 rounded-2xl flex gap-6 lg:mt-24">
+      <header className="border-zinc-800 backdrop-blur-xs border-2 p-6 rounded-2xl flex gap-6 mt-6 lg:mt-24">
         <Image
           src="/avatar.jpg"
           width={500}
