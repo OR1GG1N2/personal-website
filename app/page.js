@@ -1,5 +1,5 @@
 import Image from "next/image";
-
+import InvisibleButtonPanel from "./ui-components/InvisibleButtonPanel";
 
 const urlbuttons = [
   { name: "Telegram", description: "Телеграм канал", logo: "/1sg9t0nv.png", url: 'https://t.me/jsonnews' },
@@ -21,10 +21,12 @@ export default function Home() {
 
  
     <div className="flex flex-col min-h-screen max-w-6xl mx-auto lg:p-0 p-3">
+      
          <head>
       <title>OR1GG1n Bio • Links</title>
     </head>
-      <header className="border-zinc-800 backdrop-blur-xs border-2 p-6 rounded-2xl flex gap-6 lg:mt-24">
+    
+      <header className="border-zinc-800 backdrop-blur-xs border-2 p-6 rounded-2xl flex gap-6 mt-6 lg:mt-24">
         <Image
           src="/avatar.jpg"
           width={500}
@@ -38,11 +40,13 @@ export default function Home() {
           <div className="text-1xl font-thin text-zinc-600">
             Frontend dev, streamer
             <a className="text-amber-500 opacity-50"></a>
+            
           </div>
         </div>
       </header>
 
       <section className="mt-3">
+        <popoverd></popoverd>
         <div className="grid gap-6 md:grid-cols-5 grid-cols-2">
           {urlbuttons.map((item, index) => (
             <div
@@ -72,6 +76,8 @@ export default function Home() {
 
       <footer className="mt-auto text-center py-4 text-zinc-500">
         <div>© 2025 Or1GG1n</div>
+        {/* <InvisibleButtonPanel /> */}
+
       </footer>
     </div>
   );
