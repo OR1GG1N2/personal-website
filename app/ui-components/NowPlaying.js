@@ -122,11 +122,11 @@ export default function NowPlaying() {
   }, []);
 
   if (loading) {
-    return <div className="widget loading">Loading...</div>;
+    return <div className="widget loading"></div>;
   }
 
   if (!track?.isPlaying) {
-    return <div className="widget">Not playing</div>;
+    return <div className="widget"></div>;
   }
 
   return (

@@ -23,6 +23,7 @@ export default function RootLayout({ children }) {
         className={`${geistSans.variable} ${geistMono.variable} background: 'transparent' antialiased bg-vector `}
       >
         {children}
+        
       </body>
     </html>
   );
