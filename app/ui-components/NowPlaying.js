@@ -141,8 +141,8 @@ export default function NowPlaying() {
         />
       </div>
       <div className="info">
-        <div className="trackName">{track.name}</div>
-        <div className="artist">{track.artist}</div>
+        <div className="trackName montserrat-bold">{track.name}</div>
+        <div className="artist montserrat-light">{track.artist}</div>
       </div>
       
       <style jsx>{`

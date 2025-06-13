@@ -35,8 +35,8 @@ export default function Home() {
           className="rounded-xl h-24 w-24"
         />
         <div>
-          <div className="text-2xl font-bold">Or1GG1n</div>
-          <div className="">
+          <div className="text-2xl unbounded-bold">Or1GG1n</div>
+          <div className="montserrat-bold text-zinc-500">
             Frontend dev, streamer
            
             
@@ -53,10 +53,10 @@ export default function Home() {
           {urlbuttons.map((item, index) => (
             <div
               key={index}
-              className="group overflow-hidden  bg-zinc-800 border-[2px] border-zinc-800 hover:border-gray-800 hover:bg-gray-900 duration-300 ease-in-out rounded-[16px] h-48 p-4 relative flex flex-col justify-center text-left"
+              className="group overflow-hidden  bg-zinc-800 border-[2px] border-zinc-800 hover:border-zinc-800 hover:bg-zinc-900 duration-300 ease-in-out rounded-[16px] h-48 p-4 relative flex flex-col justify-center text-left"
             >
               <a href={item.url} className="w-full h-full">
-                <div className="p-3 rounded-xl inline-flex items-center justify-center transition bg-gray-700 duration-300 group-hover:bg-gray-500 group-hover:scale-110">
+                <div className="p-3 rounded-xl inline-flex items-center justify-center transition bg-zinc-700 duration-300 group-hover:bg-zinc-500 group-hover:scale-110">
                   <Image
                     src={item.logo}
                     width={25}
@@ -69,8 +69,8 @@ export default function Home() {
                
                 <div className="mt-5 z-10">
                   
-                  <h2 className="text-white text-lg font-semibold">{item.name}</h2>
-                  <div className="text-white text-sm mt-2">{item.description}</div>
+                  <h2 className="text-white text-lg unbounded-semibold">{item.name}</h2>
+                  <div className="text-gray-300 text-sm mt-2 montserrat-regular">{item.description}</div>
                 </div>
                
 
