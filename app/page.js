@@ -54,13 +54,14 @@ const fursonaConfig = {
 };
 
 const urlbuttons = [
-  { name: "Telegram", description: "Телеграм канал", logo: "/1sg9t0nv.png", url: 'https://t.me/jsonnews' },
+  { name: "Telegram", description: "Телеграм канал", logo: "/1sg9t0nv.png", url: 'https://t.me/or1ggin' },
   { name: "Twitch", description: "Канал со стримами", logo: "/k2jfmqmt.png", url: 'https://www.twitch.tv/or1ggin' },
-  { name: "Поддержать", description: "Нижний текст", logo: "/pjctn7n7.png", url: 'https://ggbio.carrd.co/#donate' },
+  { name: "Поддержать", description: "Нижний текст", logo: "/pjctn7n7.png", url: 'https://dalink.to/0riggin' },
   { name: "Steam", description: "Тут у меня игры", logo: "/t63qgyoi.png", url: 'https://steamcommunity.com/id/or1gg1n/' },
   { name: "Soundcloud", description: "Не музыкант", logo: "/kbwwa7v4.png", url: 'https://soundcloud.com/or1gg1n' },
   { name: "Spotify", description: "То что слушаю", logo: "/snbfip4j.png", url: 'https://open.spotify.com/user/fmb77xyr35srksw8u12bfohdz?si=540669b56a5e49bd' },
   { name: "Мой Wishlist", description: "Список желаний", logo: "/jibtd2bu.png", url: 'https://mywishlist.online/w/vx2kmb/or1gg1ns-wishlist' },
+  { name: "Boosty", description: "Секреты тут", logo: "/SimpleIconsBoosty.png", url: 'https://boosty.to/e621' },
 ];
 
 export default function Home() {
@@ -89,7 +90,7 @@ export default function Home() {
           <div className="relative flex items-center gap-6">
             <div className="relative group">
               <Image
-                src="/avatar.jpg"
+                src="/photo_2025-08-14_18-52-19.jpg"
                 width={500}
                 height={500}
                 loading="lazy"
